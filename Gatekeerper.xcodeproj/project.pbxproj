@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B94C3F11BBDB0550084BCCE /* Gatekeerper.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B94C3F01BBDB0550084BCCE /* Gatekeerper.c */; };
+		7B94C4271BBDB0A90084BCCE /* configuration.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B94C41D1BBDB0A90084BCCE /* configuration.h */; };
+		7B94C42B1BBDB0A90084BCCE /* kernel_symbols.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B94C4211BBDB0A90084BCCE /* kernel_symbols.c */; };
+		7B94C42C1BBDB0A90084BCCE /* kernel_symbols.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B94C4221BBDB0A90084BCCE /* kernel_symbols.h */; };
+		7B94C42D1BBDB0A90084BCCE /* logging.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B94C4231BBDB0A90084BCCE /* logging.h */; };
+		7B94C42F1BBDB0A90084BCCE /* trustedbsd_hooks.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B94C4251BBDB0A90084BCCE /* trustedbsd_hooks.c */; };
+		7B94C4301BBDB0A90084BCCE /* trustedbsd_hooks.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B94C4261BBDB0A90084BCCE /* trustedbsd_hooks.h */; };
+		7BAEA31D1BF0BB050002C5AC /* utils.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BAEA31B1BF0BB050002C5AC /* utils.c */; };
+		7BAEA31E1BF0BB050002C5AC /* utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BAEA31C1BF0BB050002C5AC /* utils.h */; };
+		7BF2AE151BC24FA400FD6D8B /* functions_clone.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BF2AE131BC24FA400FD6D8B /* functions_clone.c */; };
+		7BF2AE161BC24FA500FD6D8B /* functions_clone.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BF2AE141BC24FA400FD6D8B /* functions_clone.h */; };
+		7BF2AE181BC252DF00FD6D8B /* cloned_functions.s in Sources */ = {isa = PBXBuildFile; fileRef = 7BF2AE171BC252DF00FD6D8B /* cloned_functions.s */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7B94C3ED1BBDB0550084BCCE /* Gatekeerper.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Gatekeerper.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B94C3F01BBDB0550084BCCE /* Gatekeerper.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Gatekeerper.c; sourceTree = "<group>"; };
+		7B94C3F21BBDB0550084BCCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B94C41D1BBDB0A90084BCCE /* configuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = configuration.h; sourceTree = "<group>"; };
+		7B94C4211BBDB0A90084BCCE /* kernel_symbols.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kernel_symbols.c; sourceTree = "<group>"; };
+		7B94C4221BBDB0A90084BCCE /* kernel_symbols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kernel_symbols.h; sourceTree = "<group>"; };
+		7B94C4231BBDB0A90084BCCE /* logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logging.h; sourceTree = "<group>"; };
+		7B94C4251BBDB0A90084BCCE /* trustedbsd_hooks.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = trustedbsd_hooks.c; sourceTree = "<group>"; };
+		7B94C4261BBDB0A90084BCCE /* trustedbsd_hooks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trustedbsd_hooks.h; sourceTree = "<group>"; };
+		7BAEA31B1BF0BB050002C5AC /* utils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = utils.c; sourceTree = "<group>"; };
+		7BAEA31C1BF0BB050002C5AC /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		7BF2AE131BC24FA400FD6D8B /* functions_clone.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = functions_clone.c; sourceTree = "<group>"; };
+		7BF2AE141BC24FA400FD6D8B /* functions_clone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = functions_clone.h; sourceTree = "<group>"; };
+		7BF2AE171BC252DF00FD6D8B /* cloned_functions.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = cloned_functions.s; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B94C3E91BBDB0550084BCCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B94C3E31BBDB0550084BCCE = {
+			isa = PBXGroup;
+			children = (
+				7B94C3EF1BBDB0550084BCCE /* Gatekeerper */,
+				7B94C3EE1BBDB0550084BCCE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B94C3EE1BBDB0550084BCCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B94C3ED1BBDB0550084BCCE /* Gatekeerper.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B94C3EF1BBDB0550084BCCE /* Gatekeerper */ = {
+			isa = PBXGroup;
+			children = (
+				7B94C3F01BBDB0550084BCCE /* Gatekeerper.c */,
+				7B94C41D1BBDB0A90084BCCE /* configuration.h */,
+				7B94C4231BBDB0A90084BCCE /* logging.h */,
+				7B94C4211BBDB0A90084BCCE /* kernel_symbols.c */,
+				7B94C4221BBDB0A90084BCCE /* kernel_symbols.h */,
+				7B94C4251BBDB0A90084BCCE /* trustedbsd_hooks.c */,
+				7B94C4261BBDB0A90084BCCE /* trustedbsd_hooks.h */,
+				7BF2AE131BC24FA400FD6D8B /* functions_clone.c */,
+				7BF2AE141BC24FA400FD6D8B /* functions_clone.h */,
+				7BAEA31B1BF0BB050002C5AC /* utils.c */,
+				7BAEA31C1BF0BB050002C5AC /* utils.h */,
+				7BF2AE171BC252DF00FD6D8B /* cloned_functions.s */,
+				7B94C3F21BBDB0550084BCCE /* Info.plist */,
+			);
+			path = Gatekeerper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7B94C3EA1BBDB0550084BCCE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BAEA31E1BF0BB050002C5AC /* utils.h in Headers */,
+				7B94C42D1BBDB0A90084BCCE /* logging.h in Headers */,
+				7BF2AE161BC24FA500FD6D8B /* functions_clone.h in Headers */,
+				7B94C42C1BBDB0A90084BCCE /* kernel_symbols.h in Headers */,
+				7B94C4271BBDB0A90084BCCE /* configuration.h in Headers */,
+				7B94C4301BBDB0A90084BCCE /* trustedbsd_hooks.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7B94C3EC1BBDB0550084BCCE /* Gatekeerper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B94C3F51BBDB0550084BCCE /* Build configuration list for PBXNativeTarget "Gatekeerper" */;
+			buildPhases = (
+				7B94C3E81BBDB0550084BCCE /* Sources */,
+				7B94C3E91BBDB0550084BCCE /* Frameworks */,
+				7B94C3EA1BBDB0550084BCCE /* Headers */,
+				7B94C3EB1BBDB0550084BCCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gatekeerper;
+			productName = Gatekeerper;
+			productReference = 7B94C3ED1BBDB0550084BCCE /* Gatekeerper.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B94C3E41BBDB0550084BCCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Put.as;
+				TargetAttributes = {
+					7B94C3EC1BBDB0550084BCCE = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 7B94C3E71BBDB0550084BCCE /* Build configuration list for PBXProject "Gatekeerper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7B94C3E31BBDB0550084BCCE;
+			productRefGroup = 7B94C3EE1BBDB0550084BCCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B94C3EC1BBDB0550084BCCE /* Gatekeerper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B94C3EB1BBDB0550084BCCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B94C3E81BBDB0550084BCCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B94C42F1BBDB0A90084BCCE /* trustedbsd_hooks.c in Sources */,
+				7B94C42B1BBDB0A90084BCCE /* kernel_symbols.c in Sources */,
+				7BF2AE181BC252DF00FD6D8B /* cloned_functions.s in Sources */,
+				7BAEA31D1BF0BB050002C5AC /* utils.c in Sources */,
+				7B94C3F11BBDB0550084BCCE /* Gatekeerper.c in Sources */,
+				7BF2AE151BC24FA400FD6D8B /* functions_clone.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7B94C3F31BBDB0550084BCCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7B94C3F41BBDB0550084BCCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7B94C3F61BBDB0550084BCCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				INFOPLIST_FILE = Gatekeerper/Info.plist;
+				MODULE_NAME = com.put.as.Gatekeerper;
+				MODULE_START = Gatekeerper_start;
+				MODULE_STOP = Gatekeerper_stop;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.put.as.Gatekeerper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		7B94C3F71BBDB0550084BCCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				INFOPLIST_FILE = Gatekeerper/Info.plist;
+				MODULE_NAME = com.put.as.Gatekeerper;
+				MODULE_START = Gatekeerper_start;
+				MODULE_STOP = Gatekeerper_stop;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.put.as.Gatekeerper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B94C3E71BBDB0550084BCCE /* Build configuration list for PBXProject "Gatekeerper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B94C3F31BBDB0550084BCCE /* Debug */,
+				7B94C3F41BBDB0550084BCCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B94C3F51BBDB0550084BCCE /* Build configuration list for PBXNativeTarget "Gatekeerper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B94C3F61BBDB0550084BCCE /* Debug */,
+				7B94C3F71BBDB0550084BCCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B94C3E41BBDB0550084BCCE /* Project object */;
+}
